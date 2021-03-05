@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>So thich cua ban</title>
+		<style>
+			.blueclr{
+				color:#394FBC;
+				margin-top:0px;
+				margin-bottom:5px;
+			}
+			.container{
+				background-color:white;
+				border: 18px solid #D5FEFF;
+				width:500px;
+				margin-left: 427px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<p style="text-align:center; background-color:#FF4C00;color:#FFFCFA;font-size:25px; margin-top:4px;margin-bottom:0px"> SỞ THÍCH CỦA BẠN</p>
+			<form action="index.html" method="POST" style="margin-left:39px">
+				<table>
+					<tr>
+						<td><p class="blueclr">Họ và tên</p></td>
+						<td><input type="text" name="yourname" size="30" /></td>
+					</tr>
+					<tr>
+						<td><p class="blueclr"style="float:right" >Email</p></td>
+						<td><input type="text" name="email" /></td>
+					</tr>
+					<tr>
+						<td style="padding-bottom:18%"><p class="blueclr" style="float:right">Sở thích</p></td>
+						<td>	
+							<div style="color:#FFAD8A">
+								<table>
+									<tr>
+										<td><input type="checkbox" name="hobby"/>Thể thao</td>
+										<td><input type="checkbox" name="hobby" />Âm nhạc</td>
+										<td><input type="checkbox" name="hobby" />Đọc sách</td>
+									</tr>
+									<tr>
+										<td><input type="checkbox" name="hobby"/>Lướt web</td>
+										<td><input type="checkbox" name="hobby"/>Chơi game</td>
+										<td><input type="checkbox" name="hobby"/>Điện ảnh</td>
+									</tr>													
+									<tr>
+										<td><input type="checkbox" name="hobby"/>Du lịch</td>
+									</tr>
+								</table>
+							</div>
+							<div >
+								<input type="submit" name="btnSubmit" value="Gửi thông tin"/>						
+								<input type="reset" name="btnReset" value="Nhập lại"/>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</body>
+</html>
