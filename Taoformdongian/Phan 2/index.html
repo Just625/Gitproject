@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Dang ky hoc vien</title>
+		<style>
+			.container{
+				background-color:#FFFDA9;
+				font-family:sans-serif;
+				width:400px;
+			}
+			h1{
+				color:#1644FC;
+				background-color:#D4FDD6;
+			}
+			td{
+				width:100px;
+				padding-bottom: 8px
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1 > ĐĂNG KÝ HỌC VIEN</h1>
+			<form action="index.html" method="post">
+				<table>
+					<tr>
+						<td >Họ và ten</td>
+						<td >
+							<input type="text" name="yourname"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Ngày sinh</td>
+						<td>
+							<input type="text" name="Bday" size="10"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Giới tính</td>
+						<td>
+							<input type="radio" name="gender"/> Nam
+							<input type="radio" name="gender"/> Nữ
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-bottom:48px">Địa chỉ</td>
+						<td> 
+							<textarea style="height:50px" ></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td>Lớp</td>
+						<td>
+							<select>
+								<option> - Chọn lớp - </option>
+								<option>JAVA</option>
+								<option>PHP</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Email </td>
+						<td> 
+							<input type="email" name="email"/>
+						</td>
+					</tr>
+					<tr>
+						<td>Đien thoại </td>
+						<td> 
+							<input  type="number" name="phone-number"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<button type="submit">Đăng ký</button>
+							<button type="reset"> Nhập lại</button>
+						</td>
+					</tr>
+				</table>
+				
+			</form>
+		</div>
+	</body>
+</html>
