@@ -4,35 +4,56 @@
 		<title>Chuyển đổi tiền tệ</title>
 		<meta charset="utf-8"/>
 		<style>
-			.content-left{
-				width: 25%
+			table{
+				border-collapse:collapse;
 			}
 			button{
 				padding: 10px;
 				background-color:#8F82CF;
 				color:white;
 			}
+			.cot{
+				width: 122px;
+				height: 28px;
+			}
+			td{
+				padding:50px;
+			}
 		</style>
 	</head>
 	<body>
-		<form action="index.html" method="">
-			<div class="content-left">Amount 
-			<input type="text" id ="money" name="money">
-			</div>
-			<div class="content-middle">From Currency
-				<select name="so-can-doi"> 
-					<option value="vnd">VietNam</option>
-					<option value="usd">USD</option>
-				</select>
-			</div>
-			<div class="content-right">From Currency
-				<select name="so-do-sang"> 
-					<option value="usd">USD</option>
-					<option value="vnd">VietNam</option>
-				</select>
-			</div>
-			<button type="button">Convert </button>
+		<form action="" method="">
+			<table> 
+				<tr> 
+					<th>Amount</th>
+					<th>From Currency</th>
+					<th>To Currency</th>
+					<th> </th>
+				</tr>
+				<tr>
+					<td style="padding-top:0px;padding-bottom:5px"> 
+						<input type="text" id ="money" style="height: 23px;"> 
+					</td>
+					<td style="padding-top:0px;padding-bottom:5px"> 
+						<select name="" class="cot" id="canDoi"> 
+							<option value="vnd">VND</option>
+							<option value="usd">USD</option>
+						</select> 
+					</td>
+					<td style="padding-top:0px;padding-bottom:5px">
+						<select name="" class="cot" id="doiSang"> 
+							<option value="usd">USD</option>
+							<option value="vnd">VND</option>
+						</select>
+					</td>
+					<td style="padding-top:0px;padding-bottom:5px">
+						<button id="btn" type="button" style="width:100px;border-radius:8px;">Convert </button>
+					</td>
+				</tr>		
+			</table>
 		</form>
-		<script src="index.js"> </script>
+		<div id="showResult" style="color:#0611FF"> </div>
 	</body>
 </html>
+<script src="index.js"> </script>
+<!--Để cuối, để hiện phần tử HTML trước nếu JS có bị lỗi (tăng trải nghiệm người dùng) -->
