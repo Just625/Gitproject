@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chuyển đổi tiền tệ</title>
+		<meta charset="utf-8"/>
+		<style>
+			.content-left{
+				width: 25%
+			}
+			button{
+				padding: 10px;
+				background-color:#8F82CF;
+				color:white;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="index.html" method="">
+			<div class="content-left">Amount 
+			<input type="text" id ="money" name="money">
+			</div>
+			<div class="content-middle">From Currency
+				<select name="so-can-doi"> 
+					<option value="vnd">VietNam</option>
+					<option value="usd">USD</option>
+				</select>
+			</div>
+			<div class="content-right">From Currency
+				<select name="so-do-sang"> 
+					<option value="usd">USD</option>
+					<option value="vnd">VietNam</option>
+				</select>
+			</div>
+			<button type="button">Convert </button>
+		</form>
+		<script src="index.js"> </script>
+	</body>
+</html>
