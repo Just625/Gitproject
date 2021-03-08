@@ -1,0 +1,10 @@
+let phys = prompt("Nhập điểm môn Vật lý: ");
+let chemis = prompt("Nhập điểm môn Hóa học: ");
+let bio = prompt("Nhập điểm môn Sinh học: ");
+let intPhys = parseInt(phys);
+let intChemis = parseInt(chemis);
+let intBio = parseInt(bio);
+let total = intPhys + intChemis + intBio;
+let avgScore = total/3;
+alert("Tổng điểm 3 môn: "+total);
+alert("Điểm trung bình 3 môn: "+avgScore);
