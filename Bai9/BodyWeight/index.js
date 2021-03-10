@@ -10,6 +10,6 @@ if (bmi < 18.5){
 } else{
     alert("Obese");
 }
-console.log(bodyWeight);
-console.log(height);
-console.log(bmi);
+// console.log(bodyWeight);
+// console.log(height);
+// console.log(bmi);
