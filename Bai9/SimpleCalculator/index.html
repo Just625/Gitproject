@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            border: 3px solid black;
+            width:150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th{
+            padding-top:2px;
+            padding-right:1px;
+            padding-left:1px;
+            padding-bottom:2px;
+        }
+        button{
+            color: blue;
+            font-size: 10px;
+            width:21px;
+            height:15px;
+            text-align:center;
+            border:outset 1px;
+            background-color:white;
+        }
+    </style>
+</head>
+<body>
+    <p style="text-align: center;text-size: 15px;">Lưu ý chỉ dùng với 2 số có 1 chữ số</p>
+    <table>
+        <tr>
+            <th colspan="4" style="border: 1px solid gray;height:15px;text-align: right;"  id="outputData"> </th>
+        </tr>
+        <tr>
+            <th> <button id="btn1">1</button></th>
+            <th> <button id="btn2">2</button></th>
+            <th> <button id="btn3">3</button></th>
+            <th> <button id="btnPlus">+</button></th>
+        </tr>
+        <tr>
+            <th> <button id="btn4">4</button></th>
+            <th> <button id="btn5">5</button></th>
+            <th> <button id="btn6">6</button></th>
+            <th> <button id="btnMinus">-</button></th>
+        </tr>
+        <tr>
+            <th> <button id="btn7">7</button></th>
+            <th> <button id="btn8">8</button></th>
+            <th> <button id="btn9">9</button></th>
+            <th> <button id="btnMulti">X</button></th>
+        </tr>
+        <tr>
+            <th> <button id="btnC">C</button></th>
+            <th> <button id="btn0">0</button></th>
+            <th> <button id="btnCalculate">=</button></th>
+            <th> <button id="btnDivide">/</button></th>
+        </tr>
+    </table>
+</body>
+</html>
+<script src="index.js"></script>
