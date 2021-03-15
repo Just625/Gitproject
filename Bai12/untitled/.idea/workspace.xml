@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="68f27476-2378-4e86-b32a-a979b1cc5705" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BTtaobangdongian/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../BTtaobangdongian/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai11/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai11/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai11/untitled/.idea/untitled.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai11/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai9/Douloveme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai9/Douloveme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai9/Douloveme/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai9/Douloveme/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai9/SimpleCalculator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai9/SimpleCalculator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai9/SimpleCalculator/index2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai9/SimpleCalculator/index2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bài 8/LuyentapIfelse/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bài 8/LuyentapIfelse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bài 8/THswitchcase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bài 8/THswitchcase/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CV/DemoGit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Taoformdongian/Phan 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../Taoformdongian/Phan 2/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1pm46o2jLLlehb86v2ShNNVJ7kq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="68f27476-2378-4e86-b32a-a979b1cc5705" name="Default Changelist" comment="" />
+      <created>1615774759414</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615774759414</updated>
+      <workItem from="1615774760666" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
