@@ -31,8 +31,10 @@ document.getElementById("btn").addEventListener("click",function() {
     } while (condition);
     if (checkPlayer % 2 === 0) {
         tableArray[coordinateX - 1][coordinateY] = "<td>X</td>"
+        document.getElementById("btn").innerHTML = "O turn";
     } else {
         tableArray[coordinateX - 1][coordinateY] = "<td>O</td>"
+        document.getElementById("btn").innerHTML = "X turn";
     }
     checkPlayer++;
     displayTable();
@@ -41,7 +43,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1][coordinateY-1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1][coordinateY-2]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -49,7 +51,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1-1][coordinateY-1] && tableArray[coordinateX - 1][coordinateY]== tableArray[coordinateX - 1-2][coordinateY-2]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -57,7 +59,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1-1][coordinateY] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1-2][coordinateY]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -65,7 +67,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1+1][coordinateY+1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1+2][coordinateY+2]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -73,7 +75,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1][coordinateY+1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1][coordinateY+2]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -81,7 +83,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1+1][coordinateY+1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1+2][coordinateY+2]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -89,7 +91,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1+1][coordinateY] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1+2][coordinateY]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -105,7 +107,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1][coordinateY-1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1][coordinateY+1]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -114,7 +116,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1-1][coordinateY-1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1+1][coordinateY+1]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -122,7 +124,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1-1][coordinateY+1] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1+1][coordinateY-1]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
@@ -130,7 +132,7 @@ document.getElementById("btn").addEventListener("click",function() {
         if (tableArray[coordinateX - 1][coordinateY]==tableArray[coordinateX - 1-1][coordinateY] && tableArray[coordinateX - 1][coordinateY]=== tableArray[coordinateX - 1-2][coordinateY]) {
             alert("You are the winner");
             document.getElementById("btn").disabled = true;
-            document.getElementById("pressRestart").innerHTML = "Press restart to play another round"
+            document.getElementById("pressRestart").innerHTML = "Reload the web to play another round"
             return;
         }
     }
