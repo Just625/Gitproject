@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<style> 
+		#inputData{
+			height:25px;
+            width: 300px;
+		}
+        .btn{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .btn2{
+            margin-left:50px;
+        }
+        .productName{
+            width:250px;
+        }
+        #formInput{
+            background-color:#F2F2F2;
+            width:400px;
+            padding: 20px;
+        }
+	</style>
+</head>
+<body>
+    <h1>Add New Product</h1>
+    <form id="formInput">
+        <input type="text" id="inputData" placeholder="New Product">
+        <button class ='btn' type="button" id="addBtn">Add</button>
+    </form>
+    <h2>Display All Product</h2>
+    <div id="showResult" ></div>
+</body>
+</html>
+<script src="index.js"></script>
