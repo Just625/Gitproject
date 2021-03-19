@@ -9,12 +9,13 @@ function Rectangle (dai, rong){
     };
     this.drawRec = function(){
         let ctx = document.getElementById("myCanvas").getContext("2d");
-
-        ctx.moveTo(0,0);
-        ctx.lineTo(this.rong,0);
-        ctx.lineTo(this.rong,this.dai);
-        ctx.lineTo(0,this.dai);
-        ctx.lineTo(0,0);
+        ctx.beginPath();
+        ctx.rect(20,20, this.dai,this.rong);
+        // ctx.moveTo(0,0);
+        // ctx.lineTo(this.rong,0);
+        // ctx.lineTo(this.rong,this.dai);
+        // ctx.lineTo(0,this.dai);
+        // ctx.lineTo(0,0);
         ctx.stroke();
     };
     this.setDaiRong = function(dai2,rong2){
