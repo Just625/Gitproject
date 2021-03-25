@@ -36,7 +36,7 @@ class SwitchButton{
 let electricLamp = new ElectricLamp();
 let switchButton = new SwitchButton(false,electricLamp);
 console.log(switchButton);
-switchButton.connectToLamp(electricLamp2);
+switchButton.connectToLamp(electricLamp);
 for(let i = 0; i<10;i++){
     switchButton.switchOn();
     switchButton.switchOff();

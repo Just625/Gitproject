@@ -43,9 +43,9 @@ function Mobile(battery){
             console.log("You need to turn on the phone first");
         }
     };
-    this.receiveMess = function(messFromOtherPhone){
+    this.receiveMess = function(mobile){
         if(this.status == "On"){
-            this.incomingMess.push(messFromOtherPhone);
+            this.incomingMess.push(mobile.SendedMess);
             this.battery -=1;
             console.log(this.incomingMess);
         } else {
@@ -53,11 +53,12 @@ function Mobile(battery){
         }
 
     };
-    this.sendMess = function(){
+    this.sendMess = function(mobile){
         if(this.status == "On"){
             if(this.pendingMess==[]){
                 console.log("There is no pending message to send");
             } else{
+                mobile.incomingMess = this.pendingMess;
                 this.sendedMess = this.pendingMess;
                 this.pendingMess = [];
                 console.log("Messaged sended")
@@ -100,6 +101,8 @@ function Mobile(battery){
 let iphone = new Mobile(100);
 let nokia = new Mobile(100);
 nokia.writeMess("Noelle");
-nokia.sendMess();
-iphone.receiveMess("Noelle");
+nokia.sendMess(iphone);
+nokia.seeSendedMess();
+console.log(iphone.incomingMess)
 iphone.seeIncomingMess();
+

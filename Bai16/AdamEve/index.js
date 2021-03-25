@@ -76,9 +76,9 @@ for(let i=0; i<5;i++){
     secondHuman.eat(apple1);
     console.log(secondHuman.getWeight())
 }
-console.log(apple1.getWeight())
 firstHuman.eat(apple1);
 secondHuman.eat(apple1);
+
 
 
 

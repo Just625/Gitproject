@@ -29,7 +29,7 @@ class Remote{
     constructor(model){
         this.model = model;
     }
-    changeChannel = function(tivi, channel){
+    changeChannel (tivi, channel){
         tivi.presentChannel=channel;
         return tivi.presentChannel;
     }
