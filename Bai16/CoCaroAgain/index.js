@@ -67,15 +67,15 @@ for(let y =0; y < 5; y++){
             // Kiem tra cheo
             for(let i = 0; i<arr.length-2;i++){
                 for(let j =0;j<arr[i].length-2;j++){
-                    if(arr[i][j]!="<td>.</td>"&&arr[i][j]==arr[i+1][j+1]&&arr[i+1][j+1]==arr[i+2][j+2]){
+                    if(arr[i][j]!="<td>.</td>"&&arr[i][j]==arr[i+1][j+1]&&arr[i][j]==arr[i+2][j+2]){
                         displayWinner();
                         return;
                     }
                 }
             }
-            for(let i = 2; i<arr.length;i++){
+            for(let i = 0; i<arr.length-2;i++){
                 for(let j =2;j<arr[i].length;j++){
-                    if(arr[i][j]!="<td>.</td>"&&arr[i][j]==arr[i-1][j-1] && arr[i-1][j-1]==arr[i-2][j-2]){
+                    if(arr[i][j]!="<td>.</td>"&&arr[i][j]==arr[i+1][j-1] && arr[i][j]==arr[i+2][j-2]){
                         displayWinner();
                         return
                     }
